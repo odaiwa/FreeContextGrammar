@@ -12,27 +12,36 @@ Lexical Description.<br>
 `real*`<br>
 `if`<br>
 `else`<br>
-` while`<br>
+`while`<br>
 `var`<br>
-` func`<br>
-` proc`<br>
-` return`<br>
-` null`<br>
+`func`<br>
+`proc`<br>
+`return`<br>
+`null`<br>
 
 Operator Lexemes:<br>
-`&&`<br>
-`/`<br>
-`=`<br>
-`==`<br>
-`>`<br>
-`>=`<br>
-`<`<br>
-`<=`<br>
-`-`<br>
-`!`<br>
-`!=`<br>
-`||`<br>
-`+`<br>
-`*`<br>
-`&`<br>
-`^`<br>
+`&&` and<br>
+`||` or<br>
+`!` not <br>
+`/` division<br>
+`=` Assignment<br>
+`==` Equals<br>
+`>` Greater<br>
+`>=` Greater or Equal<br>
+`<` Less<br>
+`<=`Less or Equal<br>
+`-` Minus<br>
+`!=` Not Equal<br>
+`+` Plus<br>
+`*` Multiplication<br>
+`&` Address<br>
+`^` Dereference<br>
+Comment Form :<br>
+`/%This is a Comment%/`<br>
+
+Other Lexemes:<br>
+```
+; : , | { } ( ) []
+```
+
+
