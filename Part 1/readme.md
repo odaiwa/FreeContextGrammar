@@ -11,4 +11,54 @@ you can run the code by doing the following command :<br>
 
 in place of outputFile you can name it any thing you want but don't forget to write the same file name in step 4.
 checkFile presents the check File also you name it anything you want.
+<hr>
+<br>
+Some Code snips:<br><br>
 
+```
+proc foo(x,y,z:int;f:real){
+  if(x>y){
+    x=x+f;
+  }
+  else{
+    y=x+y+z;
+    x=f*2;
+    z=f;
+  }
+}
+
+func goo() return char{
+  return 'a';
+}
+```
+
+
+Abstract Syntax Tree:<br>
+
+```
+(CODE
+(PROC
+foo
+(ARGS
+(int x y z)
+(real f)
+(BODY
+  (IF-ELSE
+(> x y)
+(BLOCK
+(=y (+(+x y)z))
+(=x(*f 2 ))
+(= z f )
+)
+))
+)
+)
+FUNC 
+goo
+(ARGS NONE)
+(RET char )
+(BODY
+  )
+(RET 'a')
+)
+```
