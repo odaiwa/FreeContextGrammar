@@ -31,5 +31,5 @@ proc Main(){
 }`	
 
 Semantic Error Returned:
-  Error syntax error at line 11
+  Error syntax error at line 11<br>
   does not accept 'proc'
