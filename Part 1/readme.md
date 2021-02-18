@@ -9,5 +9,6 @@ you can run the code by doing the following command :
 `3. cc -o outputFile y.tab.c –ll –Ly`
 `4. ./outputFile<checkFile.t`
 
-in the place of output file you can name it any thing you want but forget to write the same file name in step 4.
+in place of outputFile you can name it any thing you want but don't forget to write the same file name in step 4.
+checkFile presents the check File also you name it anything you want.
 
