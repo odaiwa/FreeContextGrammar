@@ -36,7 +36,6 @@ proc Main()
 ```
 <hr>
 Output:<br>
-```
 
 ```
 foo:
@@ -63,3 +62,4 @@ L5: PushParam 3.14
   a=t1
   goto L4
 L6: EndFunc
+```
